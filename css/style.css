@@ -1067,6 +1067,7 @@ input[type="button"]:disabled,
 
 body.landing #skel-layers-wrapper {
   padding-top: 0;
+  padding-bottom: 30;
 }
 @-moz-keyframes reveal-header {
   0% {
@@ -1150,6 +1151,7 @@ body.landing #skel-layers-wrapper {
   line-height: inherit;
   margin: 0;
   padding: 0;
+  scroll-padding: ;
   position: absolute;
   top: 0;
 }
@@ -1291,14 +1293,14 @@ body.landing #skel-layers-wrapper {
 #banner {
   background-attachment: scroll, fixed;
   background-color: #494d53;
-  background-image: url("images/overlay.png"), url("../images/banner.jpg");
+  background-image: url("images/overlay.png"), url("images/bannerimage.png");
   background-position: top left, center center;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
   color: #d1d2d4;
-  padding: 16em 0;
+  padding: 25em 0;
   position: relative;
-  text-align: center;
+  text-align: left;
 }
 
 #banner:after {
@@ -1333,6 +1335,8 @@ body.landing #skel-layers-wrapper {
 
 #banner .inner {
   position: relative;
+  padding-left: 10em;
+  padding-bottom: 10em;
   z-index: 2;
 }
 
